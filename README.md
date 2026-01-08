@@ -1,8 +1,8 @@
 # How to Parse HTML With Golang?
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/) 
+[![Promo](https://github.com/bright-kr/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/) 
 
-[Node Parser](https://www.npmjs.com/package/node-html-parser), [Tokenizer](https://github.com/greim/html-tokenizer), 그리고 Goquery, Colly, [Bright Data's Web Scrapers](https://brightdata.co.kr/products/web-scraper) 같은 서드파티 도구를 사용하여 Go에서 HTML 파싱을 마스터하고, 효율적인 [web scraping](https://github.com/luminati-io/Awesome-Web-Scraping)을 수행하십시오.
+[Node Parser](https://www.npmjs.com/package/node-html-parser), [Tokenizer](https://github.com/greim/html-tokenizer), 그리고 Goquery, Colly, [Bright Data's Web Scrapers](https://brightdata.co.kr/products/web-scraper) 같은 서드파티 도구를 사용하여 Go에서 HTML 파싱을 마스터하고, 효율적인 [web scraping](https://github.com/bright-kr/Awesome-Web-Scraping)을 수행하십시오.
 
 ## Prerequisites
 
@@ -148,7 +148,7 @@ func main() {
 
 이제 Go를 사용하여 HTML을 파싱하는 방법을 알게 되었습니다. 전체 페이지 순회에는 Node Parser를 사용하고, 관련 데이터 파싱에는 Tokenizer를 사용하십시오. 더 많은 기능을 위해 서드파티 도구도 살펴보십시오. 또한 다른 스크레이핑 가이드도 확인해 보십시오:
 
-- [**Amazon**](https://github.com/luminati-io/LinkedIn-Scraper)
-- [**LinkedIn**](https://github.com/luminati-io/LinkedIn-Scraper)
-- [**Google Maps**](https://github.com/luminati-io/Google-Maps-Scraper)
-- [**Google News**](https://github.com/luminati-io/Google-News-Scraper)
+- [**Amazon**](https://github.com/bright-kr/LinkedIn-Scraper)
+- [**LinkedIn**](https://github.com/bright-kr/LinkedIn-Scraper)
+- [**Google Maps**](https://github.com/bright-kr/Google-Maps-Scraper)
+- [**Google News**](https://github.com/bright-kr/Google-News-Scraper)
