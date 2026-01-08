@@ -1,12 +1,12 @@
 # How to Parse HTML With Golang?
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/) 
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/) 
 
-Master HTML parsing in Go using [Node Parser](https://www.npmjs.com/package/node-html-parser), [Tokenizer](https://github.com/greim/html-tokenizer), and third-party tools like Goquery, Colly, and [Bright Data's Web Scrapers](https://brightdata.com/products/web-scraper) for efficient [web scraping](https://github.com/luminati-io/Awesome-Web-Scraping).
+[Node Parser](https://www.npmjs.com/package/node-html-parser), [Tokenizer](https://github.com/greim/html-tokenizer), 그리고 Goquery, Colly, [Bright Data's Web Scrapers](https://brightdata.co.kr/products/web-scraper) 같은 서드파티 도구를 사용하여 Go에서 HTML 파싱을 마스터하고, 효율적인 [web scraping](https://github.com/luminati-io/Awesome-Web-Scraping)을 수행하십시오.
 
 ## Prerequisites
 
-Before you begin, it's helpful to have a basic understanding of Go (Golang) and web scraping concepts. Make sure Go is installed on your machine. Then, create a new project folder and initialize it with the following commands:
+시작하기 전에 Go(Golang)와 Webスクレイピング 개념에 대한 기본적인 이해가 있으면 도움이 됩니다. 머신에 Go가 설치되어 있는지 확인하십시오. 그런 다음 새 프로젝트 폴더를 만들고 다음 명령으로 초기화하십시오:
 
 ```bash
 mkdir goparser
@@ -14,7 +14,7 @@ cd goparser
 go mod init goparser
 ```
 
-Test your setup with:
+다음으로 설정을 테스트하십시오:
 
 ```go
 package main
@@ -26,13 +26,13 @@ func main() {
 }
 ```
 
-Run the file:
+파일을 실행하십시오:
 
 ```bash
 go run main.go
 ```
 
-Install the dependency:
+의존성을 설치하십시오:
 
 ```bash
 go get golang.org/x/net/html
@@ -40,7 +40,7 @@ go get golang.org/x/net/html
 
 ## Extracting Data With Node Parser
 
-The Node Parser allows you to traverse the DOM (Document Object Model) of an HTML page. This is useful for extracting specific elements, such as quotes and authors. Here's an example of how to use the Node Parser to achieve this:
+Node Parser를 사용하면 HTML 페이지의 DOM(Document Object Model)을 순회할 수 있습니다. 이는 인용문과 작성자 같은 특정 요소를 추출하는 데 유용합니다. 다음은 Node Parser를 사용하여 이를 수행하는 방법의 예시입니다:
 
 ```go
 package main
@@ -82,7 +82,7 @@ func main() {
 
 ## Extracting Data With Tokenizer
 
-The Tokenizer processes HTML pages as a stream of tokens, which represent individual components of the HTML (e.g., tags, attributes, and text). This approach is more memory-efficient for large pages but requires more manual handling. Here's an example of how to use the Tokenizer to extract quotes and authors:
+Tokenizer는 HTML 페이지를 토큰 스트림으로 처리하며, 토큰은 HTML의 개별 구성 요소(예: 태그, 속성, 텍스트)를 나타냅니다. 이 접근 방식은 대용량 페이지에서 메모리 효율이 더 좋지만, 더 많은 수동 처리가 필요합니다. 다음은 Tokenizer를 사용하여 인용문과 작성자를 추출하는 예시입니다:
 
 ```go
 package main
@@ -139,14 +139,14 @@ func main() {
 
 ## Third Party Alternatives
 
-- **Goquery**: A Go alternative to jQuery, supports DOM traversal and CSS selectors.
-- **htmlquery**: Similar to Goquery but uses XPath selectors.
-- **Colly**: A full-fledged web scraping framework for Go.
-- **Bright Data Web Scraper**: An API service for scraping pages and returning data in JSON format.
+- **Goquery**: jQuery의 Go 대안으로, DOM 순회 및 CSS 셀렉터를 지원합니다.
+- **htmlquery**: Goquery와 유사하지만 XPath 셀렉터를 사용합니다.
+- **Colly**: Go를 위한 완전한 형태의 Webスクレイピング 프레임워크입니다.
+- **Bright Data Web Scraper**: 페이지를 스크레이핑하고 데이터를 JSON 형식으로 반환하는 API 서비스입니다.
 
 ## Conclusion
 
-Now you know how to parse HTML using Go. Use Node Parser for full-page traversal and Tokenizer for parsing relevant data. Explore third-party tools for more features. Go over some of our other scraping guides:
+이제 Go를 사용하여 HTML을 파싱하는 방법을 알게 되었습니다. 전체 페이지 순회에는 Node Parser를 사용하고, 관련 데이터 파싱에는 Tokenizer를 사용하십시오. 더 많은 기능을 위해 서드파티 도구도 살펴보십시오. 또한 다른 스크레이핑 가이드도 확인해 보십시오:
 
 - [**Amazon**](https://github.com/luminati-io/LinkedIn-Scraper)
 - [**LinkedIn**](https://github.com/luminati-io/LinkedIn-Scraper)
