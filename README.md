@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-시작하기 전에 Go(Golang)와 Webスクレイピング 개념에 대한 기본적인 이해가 있으면 도움이 됩니다. 머신에 Go가 설치되어 있는지 확인하십시오. 그런 다음 새 프로젝트 폴더를 만들고 다음 명령으로 초기화하십시오:
+시작하기 전에 Go(Golang)와 Web스크레이핑 개념에 대한 기본적인 이해가 있으면 도움이 됩니다. 머신에 Go가 설치되어 있는지 확인하십시오. 그런 다음 새 프로젝트 폴더를 만들고 다음 명령으로 초기화하십시오:
 
 ```bash
 mkdir goparser
@@ -141,7 +141,7 @@ func main() {
 
 - **Goquery**: jQuery의 Go 대안으로, DOM 순회 및 CSS 셀렉터를 지원합니다.
 - **htmlquery**: Goquery와 유사하지만 XPath 셀렉터를 사용합니다.
-- **Colly**: Go를 위한 완전한 형태의 Webスクレイピング 프레임워크입니다.
+- **Colly**: Go를 위한 완전한 형태의 Web스크레이핑 프레임워크입니다.
 - **Bright Data Web Scraper**: 페이지를 스크레이핑하고 데이터를 JSON 형식으로 반환하는 API 서비스입니다.
 
 ## Conclusion
